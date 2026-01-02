@@ -563,7 +563,7 @@
                     '<span style="background: #ff9800; color: white; padding: 4px 8px; border-radius: 4px; font-size: 0.75rem; margin-left: 8px;">🚧 Coming Soon</span>';
                 
                 const codeButton = project.completed ?
-                    `<a href="${project.folder}/main.py" class="action-link primary" target="_blank">
+                    `<a href="https://github.com/vinodkc/Python_projects/blob/main/${project.folder}/main.py" class="action-link primary" target="_blank">
                         🐍 View Code
                     </a>` :
                     `<button class="action-link primary" style="opacity: 0.5; cursor: not-allowed;" disabled title="Coming Soon">
@@ -571,7 +571,7 @@
                     </button>`;
                 
                 const docsButton = project.completed ?
-                    `<a href="${project.folder}/README.md" class="action-link secondary" target="_blank">
+                    `<a href="https://github.com/vinodkc/Python_projects/blob/main/${project.folder}/README.md" class="action-link secondary" target="_blank">
                         📖 Documentation
                     </a>` :
                     `<button class="action-link secondary" style="opacity: 0.5; cursor: not-allowed;" disabled title="Coming Soon">
