@@ -211,6 +211,7 @@ unique = list(set(duplicates))  # [1, 2, 3, 4]
 - As elements of other sets
 - When immutability is required
 
+{% raw %}
 ```python
 # Regular set cannot be a dict key
 # permissions = {{'read', 'write'}: 'Editor'}  # ❌ Error!
@@ -229,6 +230,7 @@ set_of_sets = {
     frozenset([5, 6])
 }
 ```
+{% endraw %}
 
 ---
 
